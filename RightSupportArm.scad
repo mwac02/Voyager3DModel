@@ -43,6 +43,7 @@ module right_support_arm(posx = 0, posy = 0, posz = 0) {
         rotate([-60,0,0])
         cylinder(h = 1.2, r = .03, $fn = 100);
 
+        translate([0,1,0])
         rotate([90,0,30])
         cylinder(h = 1.2, r = .03, $fn = 100);
 
