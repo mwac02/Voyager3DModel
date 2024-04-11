@@ -116,7 +116,3 @@ top_support();
 rotate([0,0,108])
 top_support();
 long_top_support();
-
-// Remove before push.
-
-thermal_blanket();
